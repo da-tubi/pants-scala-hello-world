@@ -20,3 +20,8 @@
 
 ./pants check ::
 ```
+
+## Step 3: Add `deploy_jar` filter
+```commandline
+./pants run hello/src:bin
+```
